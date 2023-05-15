@@ -23,6 +23,7 @@ ARD:: Analysis Ready Data
 ADES:: Application Deployment and Execution Service
 AP:: Application Package
 API:: Application Programming Interface
+CAT:: Catastrophe (risk modelling)
 EMS:: Exploitation Platform Management Service
 P&C:: Property and Casualty (insurance)
 S3:: Simple Storage Service
