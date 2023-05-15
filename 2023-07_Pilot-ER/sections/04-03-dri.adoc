@@ -13,31 +13,36 @@ Intact is the largest provider of Property & Casualty (P&C) insurance in Canada.
 
 ==== Scope of Work
 The project centered the efforts around these challenges:
-* Identify current usages of wildfire risk maps at Intact by interviewing various business units;
-* Revisit and update previous wildfire hazard map, using external open data sources;
-* Identify and seek collaboration opportunities with pilot participants;
-* Inform internal architectural, infrastructure and procurement processes of new geospatial standards and trends;
-* Identify and develop insurance wildfires risk use cases, to build Disaster and Climate Resilience.
+
+ * Identify current usages of wildfire risk maps at Intact by interviewing various business units;
+ * Revisit and update previous wildfire hazard map, using external open data sources;
+ * Identify and seek collaboration opportunities with pilot participants;
+ * Inform internal architectural, infrastructure and procurement processes of new geospatial standards and trends;
+ * Identify and develop insurance wildfires risk use cases, to build Disaster and Climate Resilience.
 
 These activities should, when possible, align with the best practices and standards of the OGC, as well as current and proposed themes in OGC's DWG.
 
 ==== Approach
 To develop its component, Intact deployed its previous proprietary wildfire hazard model in a private, on-premise data science environment. External connections were then established to several open data repositories containing key inputs to the model. For the development of risk models, Intact’s team will rely on exposure data representing insured risks throughout the country, and on claims received for previous events.
- - Inputs:
+
+Inputs
+
   * National fire database polygon data
   * Fire Weather Index (FWI) daily maps
   * Land cover maps
   * Drought conditions
   * Digital Elevation Model (DEM)
   * Population density
+  
+Outputs 
 
-- Outputs:
   * Wildfire hazard map, in GeoTiff
   * Regional risk indicators, as tabular output in CSV format
   
-- What other component(s) can interact with the component: Intact's component is developed for internal use. It is deployed in highly secured data environments, and as such it cannot readily interact with other components of the pilot. 
+What other component(s) can interact with the component: Intact's component is developed for internal use. It is deployed in highly secured data environments, and as such it cannot readily interact with other components of the pilot. 
 
-- What OGC standards or formats does the component use and produce:
+What OGC standards or formats does the component use and produce:
+
   * GeoTiff
   * NetCDF
   * WPS
@@ -52,7 +57,8 @@ Our participation in the Climate Resilience pilot focuses on enhancing our view 
 Pelagis is an OceanTech venture located in Nova Scotia, Canada. Our foundation focuses on the application of open geospatial technology and standards designed to promote the sustainable use of our ocean resources.  As a member of the Open Geospatial Consortium, we co-chair the Marine Domain Working Group with a focus on developing a federated model of the marine ecosystem (MSDI) compliant with the suite of OGC specifications and standards.
 
 ==== Scope of Work
-The project effort centers around 3 key challenges
+The project effort centers around 3 key challenges:
+
 * the ability to collect data relevant to Climate Resilience;
 * the ability to apply the data in a coherent and standardized manner in which to draw out context;
 * and the ability to impart insight to community members and stakeholders so as to identify, anticipate and mitigate the effects of climate change across both local and international boundaries.
