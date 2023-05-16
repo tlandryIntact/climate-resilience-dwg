@@ -34,7 +34,7 @@ To develop its component, Intact migrated its previous proprietary wildfire haza
   * Digital Elevation Model (DEM)
   * Population density
 
-In parallel, CCGA polled IFC's stakeholders about current and potential uses of wildfire risk products within their operations. This information was used to identify use cases supporting this pilot project, as well as prospective proof-of-concepts for wildfire resiliency. Additionally, the team adopted a multi-hazard approach, seeking to apply learnings obtained from flood risk mapping, benchmarking and decision making. For instance, CCGA routinely manipulate exposure data representing insured risks throughout the country, as well as claims received for previous catastrophic events.
+In parallel, CCGA polled IFC's stakeholders about current and potential uses of wildfire risk products within their operations. This information was used to identify use cases supporting this pilot project, as well as prospective proof-of-concepts for wildfire resiliency. Additionally, the team closely considered lessons learned from previous internal flood risk mapping initiatives. For instance, CCGA routinely manipulate exposure data representing insured risks throughout the country, as well as claims received for previous catastrophic events.
   
 Intact's wildfire hazard map is developed exclusively for internal use. Aside from intellectual property terms, it is meant to be deployed in highly secured data environments, and as such it cannot readily interact with other components of the pilot at this point of time. The intent is to develop geospatial infrastructures and legal terms that would allow a closer collaboration with pilot's participants.
 
