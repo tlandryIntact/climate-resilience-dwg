@@ -4,11 +4,29 @@
 
 
 === Intact Financial Corporation
+Wildfire risk in Canada is prominent and even though major events do not occur every year, they can cause unprecedented damage. Costs from the wildfire events of summer 2021 in British Columbia reached $77 and $78 millions in insured damage at White Rock Lake and Lytton, respectively. Wildfire activity is expected to go up due to an increase in fire-prone conditions across the country. It is therefore essential that insurers build capacities to monitor wildfire risk and occurrence to protect customers and manage risk exposure.
 
-- Component: 
-  * Wildfire hazard map
+Intact Financial Corporation (IFC) participation to this pilot was conducted by the Centre for Climate and Geospatial Analytics (CCGA), a team of experts operating at Intact Data Lab. The main focus of this participation is to better understand end-to-end hazard and risk modelling workflows, in turn supporting the climate services required for decision-making in the business. This participation is also intended to further open up Intact Lab to the outside world, by providing information on wildfire risks and climate resiliency in the context of the insurance industry. 
 
-- Inputs:
+==== About Us
+Intact is the largest provider of Property & Casualty (P&C) insurance in Canada. Its purpose is to help people, businesses and society prosper in good times and be resilient in bad times. The company has been on the front lines of climate change with our customers for more than a decade – getting them back on track and helping them adapt. As extreme weather is going to get worse over the next decade, Intact intends to double down on adapting to this changing environment and be better prepared for floods, wildfire and extreme heat. 
+
+With close to 500 experts in data, AI, machine learning and pricing, the Intact Data Lab has deployed almost 300 AI models in production to-date. It is focused on improving risk selection and making operations as efficient as possible while creating outstanding interactions with customers. Within Intact’s Data Lab, the Centre for Climate and Geospatial Analytics (CCGA) uses weather, climate, and geospatial data along with machine learning models and claims data to develop risk maps and other specialized products to the business.
+
+==== Scope of Work
+The project centered the efforts around these challenges:
+
+ * Identify current usages of wildfire maps at Intact by interviewing various business units;
+ * Revisit and update previous wildfire hazard map, using external open data sources;
+ * Identify and seek collaboration opportunities with pilot participants;
+ * Inform internal architectural, infrastructure and procurement processes of new geospatial standards and trends;
+ * Identify and develop insurance wildfires risk use cases, to build Disaster and Climate Resilience.
+
+These activities should, when possible, align with the best practices and standards of the OGC, as well as current and proposed themes in OGC's DWG.
+
+==== Approach
+To develop its component, Intact migrated its previous proprietary wildfire hazard model to a new private on-premise data science environment. For all key inputs to the model, external connections to several open data repositories were established. To facilitate these access tests, several public open source datasets, such as climate model outputs, Earth observations, weather and geospatial, were vetted by the appropriate cybersecurity boards. The tests informed experts of changes in platforms offerings, of new data products specifications and of current authoritative scientific references. The following datasets were accessed specifically to produce an updated wildfire hazard map (GeoTiff), and to compute regional risk indicator by postal codes (CSV):
+
   * National fire database polygon data
   * Fire Weather Index (FWI) daily maps
   * Land cover maps
@@ -16,21 +34,9 @@
   * Digital Elevation Model (DEM)
   * Population density
 
-- Outputs:
-  * Wildfire hazard map, in GeoTiff
-  * Regional risk indicators, as tabular output in CSV format
+In parallel, CCGA polled IFC's stakeholders about current and potential uses of wildfire risk products within their operations. This information was used to identify use cases supporting this pilot project, as well as prospective proof-of-concepts for wildfire resiliency. Additionally, the team closely considered lessons learned from previous internal flood risk mapping initiatives. For instance, CCGA routinely manipulate exposure data representing insured risks throughout the country, as well as claims received for previous catastrophic events.
   
-- What other component(s) can interact with the component: Intact's component is developed for internal use. It is deployed in highly secured data environments, and as such it cannot readily interact with other components of the pilot. 
-
-- What OGC standards or formats does the component use and produce:
-  * GeoTiff
-  * NetCDF
-  * WPS
-
-==== Company Description 
-
-Intact is the largest provider of Property & Casualty insurance in Canada. Its purpose is to help people, businesses and society prosper in good times and be resilient in bad times. The company has been on the front lines of climate change with our customers for more than a decade – getting them back on track and helping them adapt. As extreme weather is going to get worse over the next decade, Intact intends to double down on adapting to this changing environment and be better prepared for floods, wildfire and extreme heat.
-
+Intact's wildfire hazard map is developed exclusively for internal use. Aside from intellectual property terms, it is meant to be deployed in highly secured data environments, and as such it cannot readily interact with other components of the pilot at this point of time. The intent is to develop geospatial infrastructures and legal terms that would allow a closer collaboration with pilot's participants.
 
 === Pelagis
 The effects of climate change on coastal environments cannot be understated. As the carrying capacity of our oceans as a carbon sink is reaching its limits, research suggests that an integrated approach to oceans resource management can sustainably meet the needs of global food supplies, offset the rate of ocean acidification, and permanently remove CO2 from the atmosphere. However, accurately measuring both the effect of climate change as well as the mitigation effects of nature-based approaches remains a challenge.
@@ -41,7 +47,8 @@ Our participation in the Climate Resilience pilot focuses on enhancing our view 
 Pelagis is an OceanTech venture located in Nova Scotia, Canada. Our foundation focuses on the application of open geospatial technology and standards designed to promote the sustainable use of our ocean resources.  As a member of the Open Geospatial Consortium, we co-chair the Marine Domain Working Group with a focus on developing a federated model of the marine ecosystem (MSDI) compliant with the suite of OGC specifications and standards.
 
 ==== Scope of Work
-The project effort centers around 3 key challenges
+The project effort centers around 3 key challenges:
+
 * the ability to collect data relevant to Climate Resilience;
 * the ability to apply the data in a coherent and standardized manner in which to draw out context;
 * and the ability to impart insight to community members and stakeholders so as to identify, anticipate and mitigate the effects of climate change across both local and international boundaries.
