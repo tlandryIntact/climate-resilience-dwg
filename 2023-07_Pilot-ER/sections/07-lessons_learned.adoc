@@ -31,7 +31,7 @@ The various organizations and institutes that contribute to the Climate Resilien
 
 - At present participants have only implemented the first Drought Index (SPI) using precipitation data from the Copernicus Climate Data Store (CDS), but are open to / need other data sources.
 
-- Definition of common documentation guidelines for terms and licences of endpoints would facilitate approval in cybersecurity-heavy environments. Individual security reviews for each participants and their endpoints is a tedious process. Having common terms as defined in OGC's master agreementx, alongside applicable open source licences, would facilitate endpoint whitelisting.
+- Definition of common documentation guidelines for terms and licences of endpoints would facilitate approval in cybersecurity-heavy environments. Individual security reviews for each participants and their endpoints is a tedious process. Having common terms as defined in OGC's master agreement, alongside applicable open source licences, would facilitate endpoint whitelisting.
 
 
 
