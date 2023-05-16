@@ -17,7 +17,7 @@ with customers. Within Intact’s Data Lab, the Centre for Climate and Geospatia
 ==== Scope of Work
 The project centered the efforts around these challenges:
 
- * Identify current usages of wildfire risk maps at Intact by interviewing various business units;
+ * Identify current usages of wildfire maps at Intact by interviewing various business units;
  * Revisit and update previous wildfire hazard map, using external open data sources;
  * Identify and seek collaboration opportunities with pilot participants;
  * Inform internal architectural, infrastructure and procurement processes of new geospatial standards and trends;
