@@ -11,8 +11,7 @@ IFC's participation to this pilot was conducted by the Centre for Climate and Ge
 ==== About Us
 Intact is the largest provider of Property & Casualty (P&C) insurance in Canada. Its purpose is to help people, businesses and society prosper in good times and be resilient in bad times. The company has been on the front lines of climate change with our customers for more than a decade – getting them back on track and helping them adapt. As extreme weather is going to get worse over the next decade, Intact intends to double down on adapting to this changing environment and be better prepared for floods, wildfire and extreme heat. 
 
-With close to 500 experts in data, AI, machine learning and pricing, the Intact Data Lab has deployed almost 300 AI models in production to-date, helping transform outperformance advantage. It is focused on improving risk selection and making operations as efficient as possible while creating outstanding interactions 
-with customers. Within Intact’s Data Lab, the Centre for Climate and Geospatial Analytics (CCGA) uses weather, climate, and geospatial data along with machine learning models and claims data to develop risk maps and other specialized products to the business.
+With close to 500 experts in data, AI, machine learning and pricing, the Intact Data Lab has deployed almost 300 AI models in production to-date. It is focused on improving risk selection and making operations as efficient as possible while creating outstanding interactions with customers. Within Intact’s Data Lab, the Centre for Climate and Geospatial Analytics (CCGA) uses weather, climate, and geospatial data along with machine learning models and claims data to develop risk maps and other specialized products to the business.
 
 ==== Scope of Work
 The project centered the efforts around these challenges:
